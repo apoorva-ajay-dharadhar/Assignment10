@@ -225,31 +225,6 @@ public class SearchPhoneNumbers {
 			
 		}
 	}
-//	public static void main(String[] args)
-//	{
-//		SearchPhoneNumbers sp=new SearchPhoneNumbers();
-//		//sp.search();
-//		Scanner sc=new Scanner(System.in);
-//		System.out.println("Enter the phone number to be search..");
-//		String number=sc.nextLine();
-//		List<Contact> list=searchDB();
-//		for(Contact c: list)
-//		{
-//			//System.out.println(c);
-//		}
-//		List<Contact> finalSearchList = null;
-//		try {
-//			finalSearchList = searchContactByNumber(number);
-//		} catch (ContactNotFoundException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		for(Contact c: finalSearchList)
-//		{
-//			System.out.println(c);
-//			
-//		}
-//		
-//	}
+
 
 }
