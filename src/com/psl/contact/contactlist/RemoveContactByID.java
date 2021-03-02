@@ -89,9 +89,16 @@ public class RemoveContactByID {
 	
 	
 	//2.	Void Remove contact(Contact contact, List<contact> contacts) throws ContactNotFoundException
+	
+	/*
+	 * This function takes Contact object which is to be removed as an input
+	 * With the help of getter() the ID is compared with all the objects of Contact class 
+	 * in the List of Contacts and when the match is found, with the help of iterator the onject is 
+	 * removed
+	 * */
 	public static void removeContact(Contact contact, List<Contact> contacts) throws ContactNotFoundException
 	{
-		//2.	Void Remove contact(Contact contact, List<contact> contacts) throws ContactNotFoundException
+		
 		int flag=0;
 		Iterator<Contact> itr=contacts.iterator();
 		while(itr.hasNext())
