@@ -37,7 +37,9 @@ public class MainClass {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		/*Switch case for choosing one option from all the 11 functionalities provided by this class
+		 * 
+		 * */
 		
 		ContactService cs=new ContactService();
 		List<Contact> contactList=new ArrayList<Contact>();

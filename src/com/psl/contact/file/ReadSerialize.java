@@ -9,7 +9,9 @@ import java.util.List;
 
 import com.psl.contacts.Contact;
 
-
+/*This is class is deliberately created separately for ease in accessing the elements in the file 
+ * 
+ * */
 public class ReadSerialize {
 	
 	public static List<Contact> readContactsFromFile(List<Contact> populateC, String fileName)//List<Contact> contacts, String fileNAme
