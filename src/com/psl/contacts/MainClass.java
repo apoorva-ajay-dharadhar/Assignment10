@@ -109,7 +109,6 @@ public class MainClass {
 					SearchPhoneNumbers snum=new SearchPhoneNumbers();
 					List<Contact> searched=new ArrayList<Contact>();
 					snum.process(n, contactList);
-				
 					break;
 					
 				}
