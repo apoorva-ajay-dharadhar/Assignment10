@@ -39,7 +39,8 @@ public class PopulateFromDB {
 					cont.setContactName(name);
 					String email=rs.getString(3);
 					cont.setEmailAddress(email);
-					String contactNums=rs.getString("contactList");
+					String contactNums=rs.getString("contactList");//Receiving the input from contactList column
+					//of the database"
 					List<String> conts=new ArrayList<String>();
 					String n="";
 					if(contactNums!=null)
