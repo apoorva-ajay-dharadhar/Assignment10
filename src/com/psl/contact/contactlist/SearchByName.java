@@ -12,6 +12,8 @@ import com.psl.db.exception.ContactNotFoundException;
 
 
 public class SearchByName {
+	/*
+	 * Provision for searching by name using database*/
 	public static List<Contact> readFromDB()
 	{
 		Connection cn=ConnectionUtil.getConnection();
@@ -68,6 +70,9 @@ public class SearchByName {
 	public List<Contact> searchContactByName(String name, List<Contact> contact) throws ContactNotFoundException//keep the return type to void
 	{
 		//3.	Contact searchContactByName(String name, List<Contact> contact) throws ContactNotFoundException
+		/*equals() method is used for comparison of names
+		 * 
+		 * */
 		int flag=0;
 		Contact cn=new Contact();
 		List<Contact> cntName=new ArrayList<Contact>();
